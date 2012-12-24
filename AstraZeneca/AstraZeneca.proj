@@ -40,7 +40,7 @@
     <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
     <Resource Include="App_Resources\iOS\Default.png" />
     <Resource Include="App_Resources\iOS\Default@2x.png" />
-	<Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
     <Resource Include="App_Resources\iOS\Default-Portrait.png" />
     <Resource Include="App_Resources\iOS\Default-Landscape.png" />
     <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
@@ -52,6 +52,24 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\background.png" />
+    <Content Include="images\bntHome.png" />
+    <Content Include="images\bntLibrary.png" />
+    <Content Include="images\Default-Landscape.png" />
+    <Content Include="images\Default-Landscape@2x.png" />
+    <Content Include="images\Default-Portrait.png" />
+    <Content Include="images\Default-Portrait@2x.png" />
+    <Content Include="images\Default.png" />
+    <Content Include="images\Default@2x.png" />
+    <Content Include="images\Icon-72.png" />
+    <Content Include="images\Icon-72@2x.png" />
+    <Content Include="images\Icon-Small-50.png" />
+    <Content Include="images\Icon-Small-50@2x.png" />
+    <Content Include="images\Icon-Small.png" />
+    <Content Include="images\Icon-Small@2x.png" />
+    <Content Include="images\Icon.png" />
+    <Content Include="images\icon@2x.png" />
+    <Content Include="images\logo.png" />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
     <Content Include="jquery-mobile\images\icons-18-black.png" />
