@@ -1,21 +1,3 @@
-#previusPage {
-    position:absolute;
-	left:0px;
-	top:300px;
-	width:57px;
-	height:100px;
-    background-image: url("../images/left.png");
-    background-repeat:no-repeat;
-}
-#nextPage {
-    position:absolute;
-	right:0px;
-	top:300px;
-	width:57px;
-	height:100px;
-    background-image: url("../images/right.png");
-    background-repeat:no-repeat;
-}
 #announcements
 {
     margin: 12px;
@@ -26,7 +8,7 @@
 
 .cardPicture
 {
-    background-image: url("coffeeCupFrame.png");
+    background-image: url("images/background.jpg");
     background-repeat:no-repeat;
     background-position:center;
     width: 52px;
@@ -36,21 +18,21 @@
 
 .silverFrame
 {
-    background-image: url("coffeeCupFrameSilver.png");
+    background-image: url("images/bacground.png");
     background-repeat:no-repeat;
     background-position:center;
 }
 
 .goldFrame
 {
-    background-image: url("coffeeCupFrameGold.png");
+    background-image: url("images/background.jpg");
     background-repeat:no-repeat;
     background-position:center;
 }
 
 .cardPicture:after 
 {
-    content: url("coffeeCupSmall.png");
+    content: url("images/background.jpg");
     position: relative;
     top: 12px;
     left: 12px;
@@ -119,11 +101,7 @@
 {
 	-webkit-mask-box-image: url("../icons/stores.png");
 }
-.km-h {
-    background-image: url("../icons/bntHome.png");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-}
+
 /*66CCFF*/
 #jitterz-tabstrip,
 #jitterz-default-header .km-navbar,
@@ -141,8 +119,8 @@
 #home .km-content
 {
     background-image: url("../images/background.jpg");
-    background-repeat:no-repeat;
     background-size: 100% 100%;
+    backcround-repeat:no-repeat;
 }
 
 /*Ivan Ivanov Cancel button*/

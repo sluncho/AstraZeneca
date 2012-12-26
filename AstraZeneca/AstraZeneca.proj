@@ -28,6 +28,12 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="kendo" />
+    <Folder Include="kendo\js" />
+    <Folder Include="kendo\styles" />
+    <Folder Include="kendo\styles\images" />
+    <Folder Include="styles" />
+    <Folder Include="scripts" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -52,15 +58,29 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\phone-1280.css" />
+    <Content Include="css\phone-480.css" />
+    <Content Include="css\phone-800.css" />
+    <Content Include="css\tablet-1024-ldpi.css" />
+    <Content Include="icons\bntHome.png" />
+    <Content Include="icons\bntLibrary.png" />
+    <Content Include="images\320.png" />
+    <Content Include="images\background.jpg" />
     <Content Include="images\background.png" />
+    <Content Include="images\bntBezopastnost.png" />
+    <Content Include="images\bntDozirovka.png" />
+    <Content Include="images\bntEfikasnost.png" />
     <Content Include="images\bntHome.png" />
     <Content Include="images\bntLibrary.png" />
+    <Content Include="images\bntProfiles.png" />
+    <Content Include="images\bntVideo.png" />
     <Content Include="images\Default-Landscape.png" />
     <Content Include="images\Default-Landscape@2x.png" />
     <Content Include="images\Default-Portrait.png" />
     <Content Include="images\Default-Portrait@2x.png" />
     <Content Include="images\Default.png" />
     <Content Include="images\Default@2x.png" />
+    <Content Include="images\flowers.png" />
     <Content Include="images\Icon-72.png" />
     <Content Include="images\Icon-72@2x.png" />
     <Content Include="images\Icon-Small-50.png" />
@@ -69,18 +89,22 @@
     <Content Include="images\Icon-Small@2x.png" />
     <Content Include="images\Icon.png" />
     <Content Include="images\icon@2x.png" />
+    <Content Include="images\left.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\right.png" />
+    <Content Include="images\slide1.png" />
+    <Content Include="images\slide2.png" />
+    <Content Include="images\slide3.png" />
+    <Content Include="images\Symbicort.png" />
     <Content Include="index.html" />
-    <Content Include="jquery-mobile\images\ajax-loader.gif" />
-    <Content Include="jquery-mobile\images\icons-18-black.png" />
-    <Content Include="jquery-mobile\images\icons-18-white.png" />
-    <Content Include="jquery-mobile\images\icons-36-black.png" />
-    <Content Include="jquery-mobile\images\icons-36-white.png" />
-    <Content Include="jquery-mobile\jquery-1.8.2.min.js" />
-    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.css" />
-    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.js" />
-    <Content Include="js\hello-world.js" />
-    <Content Include="styles\main.css" />
+    <Content Include="console.js" />
+    <Content Include="css\images\back.png" />
+    <Content Include="css\images\KendoUI.ttf" />
+    <Content Include="css\images\KendoUI.woff" />
+    <Content Include="css\kendo.dataviz.min.css" />
+    <Content Include="css\kendo.mobile.all.min.css" />
+    <Content Include="css\kendo.mobile.astra.css" />
+    <Content Include="css\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -89,6 +113,24 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\images\android-sprite.png" />
+    <Content Include="kendo\styles\images\iconmasks.svg" />
+    <Content Include="kendo\styles\images\icons.png" />
+    <Content Include="kendo\styles\images\ios-sprite.png" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="scripts\card.js" />
+    <Content Include="scripts\main.js" />
+    <Content Include="styles\960.css" />
+    <Content Include="styles\coffeeCupFrameGold.png" />
+    <Content Include="styles\coffeeCupFrameSilver.png" />
+    <Content Include="styles\coffeeCupSmall.png" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\phone-1280.css" />
+    <Content Include="styles\phone-480.css" />
+    <Content Include="styles\phone-800.css" />
+    <Content Include="styles\tablet-1024-ldpi.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
